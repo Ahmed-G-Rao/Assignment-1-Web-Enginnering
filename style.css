@@ -3,104 +3,59 @@ ul{
 }
 li{
     float: left;   
+    background-color: rgb(238, 238, 216);
 }
-.navbar1{
-    background-color: rgb(179, 71, 71);
-    margin-bottom: 20px;
-}
- 
 li a{
     display: block;
     padding-right: 80px;
     padding-left: 30px;
-    padding-top: 8px;
     height: 30px;
-    background-color: rgb(218, 93, 93);
-    border-radius: 16px;
+    margin-left: 20px;
+    width: 120px;
+    border-radius: 4px;
     text-decoration: none;
     transition: height 1s;
+    text-align: center;
+    
 }
 li a:hover{
     height: 36px;
     background-color: rgb(189, 168, 168);
     border-radius: 12px;   
 }
-
-.headings{
-    margin-left: 50px;
+.col-3{
+  border-radius: 14px;
+  
 }
-body {
-
-    background-image: radial-gradient(white,rgb(233, 223, 223));
- height: 780px;
-  }
-.des{
-   margin-top: -40px;
-   margin-left: 15px;
-   
+.row{
+    background-color: rgb(241, 245, 244);
+   margin-bottom: 30px;
 }
-  .images{
-      display: flex;
-      width: 256px;
-      height: 180px;
-      margin-top: -40px;
-      margin-left: 5px;
-      flex-wrap: wrap;
-      border-radius: 10px;
-      transition: width 2s,height 2s, transform 2s;
-     
+.images{
+    width: 100%;
+    transition: width 2s, transform 2s;
+    border-radius: 10px;margin-top: 20px;
 }
 .images:hover{
-     width: 260px;
-     height: 190px;
-     transform: rotate(5deg);
+     width: 101%;
+     transform: rotate(2deg);
      
-}  
-.btn{
-    margin-top: -30px;
+} 
+.buttonss{
     height: 35px;
-    width: 150px;
-    margin-left: 60px;
-    background-color: rgba(7, 71, 7, 0.699);
-    border-radius: 12px;
+    width: 50%;
     font-size: 18px;
-    transition: width 1s,height 1s;   
+    text-align: center;
+   
 }
-.btn:hover{
-    height: 40px;
-    width: 160px;
-    margin-left: 60px;
-    background-color: rgba(56, 160, 56, 0.699);
-    border-radius: 10px;
-    font-size: 22px;
-    
+.buttonss:hover{
+    height: 45px;
+    width: 60%;
+
+    transition: width 2s,height 2s;
+    text-align: center;
 }
-#info{
-    display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
-    flex-direction: row;
-  
-       flex-wrap: wrap;
-    
-}
-#info div{
-    display: flex;
-    border-radius: 20px;
-    margin-left: 20px;
-    width: 265px;
-    height: 600px;
-    background-color: rgb(233, 223, 223);
-    float: left;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-    transition: width 1s,height 1s  ;    
-}
-#info div:hover{
-  width: 275px;
-  height: 610px;
- 
-}
+
 #about_us{
     background-color: rgb(138, 201, 138);
     padding-top: 1px;
